@@ -306,8 +306,8 @@ class CoingeckoApi:
 
         @coin_id: pass the coin id (can be obtained from get_coin_list) eg. bitcoin
         @vs_currency: The target currency of market data (usd, eur, jpy, etc.)
-        @from: From date in UNIX Timestamp (eg. 1392577232)
-        @to: To date in UNIX Timestamp (eg. 1422577232)        
+        @from: From date
+        @to: To date   
         """
 
         path_vars = {
